@@ -89,17 +89,17 @@
         </spatial>
     </tendon>
 
-    <actuator>
-        <position joint="block2_joint_y" kp="1"/>
-        <position joint="block2_joint_x" kp="1"/>
-    </actuator>
+        <actuator>
+            <position joint="block2_joint_y" kp="1"/>
+            <position joint="block2_joint_x" kp="1"/>
+        </actuator>
 
-    <sensor>
-        <jointpos name="block2_x_pos" joint="block2_joint_x"/>
-        <jointpos name="block2_y_pos" joint="block2_joint_y"/>
-        
-        <jointvel name="block2_x_vel" joint="block2_joint_x"/>
-        <jointvel name="block2_y_vel" joint="block2_joint_y"/>
-    </sensor>
+        <sensor>
+            <jointpos name="block2_x_pos" joint="block2_joint_x"/>
+            <jointpos name="block2_y_pos" joint="block2_joint_y"/>
+            
+            <jointvel name="block2_x_vel" joint="block2_joint_x"/>
+            <jointvel name="block2_y_vel" joint="block2_joint_y"/>
+        </sensor>
 
 </mujoco>
